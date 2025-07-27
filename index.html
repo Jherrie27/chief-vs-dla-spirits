@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chief vs DLA Spirits</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="menuScreen">
+    <img id="menuBg" src="assets/menubg.gif" alt="Menu Background" />
+    <button id="startBtn">Start Game</button>
+    <div id="controlsInfo">Controls: WASD to Move, Z to Attack</div>
+    <audio id="menuMusic" loop>
+      <source src="assets/menumusic.mp3" type="audio/mpeg" />
+    </audio>
+  </div>
+
+  <canvas id="gameCanvas" width="800" height="500" style="display: none;"></canvas>
+
+  <script src="game.js"></script>
+</body>
+</html>
